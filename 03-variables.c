@@ -5,15 +5,18 @@ Variables are containers used to store values. They are created by specifying a 
 #include <conio.h>
 #include <stdbool.h>
 int main(){
-  int age=25;
-  char grade='A';
-  char name[20]="Oscar";
-  float salary=2500.50;
-  double balance=5000.75;
-  bool isMarried=true;
-  if(isMarried){
-    printf("Hello, %s! You are married and your age is %d.\n",name,age);
-    printf("Your grade is %c and your salary is $%.2f.\n",grade,salary);
-    printf("Your account balance is $%.2f.\n",balance);
+ int age=24;
+ printf("Age: %d\n", age);
+char grade='A';
+printf("Grade:%c\n", grade);
+float weight=65.5;
+printf("Weight: %.2f\n", weight);
+double height=5.9;
+printf("Height: %.2lf\n", height);
+bool isTrue=true;
+printf("Boolean: %s\n", isTrue? "True" : "False");
+char name[]="John Doe";
+printf("Name: %s\n", name);
+ 
+ return 0;
   }
-}
