@@ -18,7 +18,8 @@
 #include <conio.h>
 int main(){
   int num1=10, num2=5;
-  printf("Addition: %d\n", num1 + num2);
+  int result=num1+num2;
+  printf("Addition: %d\n", result);
   int x=5;
   int y=9;
   /**
