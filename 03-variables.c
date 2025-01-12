@@ -17,6 +17,5 @@ bool isTrue=true;
 printf("Boolean: %s\n", isTrue? "True" : "False");
 char name[]="John Doe";
 printf("Name: %s\n", name);
- 
  return 0;
   }
